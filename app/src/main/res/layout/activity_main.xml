@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.abhi.mastermind.MainActivity"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <Button
+           android:layout_width="55dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:background="#5D4037" />
+
+
+
+       <Button
+
+    android:layout_width="55dp"
+    android:layout_height="wrap_content"
+    android:background="#26C6DA"/>
+       <Button
+           android:layout_width="55dp"
+           android:layout_height="wrap_content"
+           android:background="#455A64"/>
+       <Button
+           android:layout_width="55dp"
+           android:layout_height="wrap_content"
+           android:background="#F4511E"
+           />
+<Button
+    android:layout_width="55dp"
+    android:layout_height="wrap_content"
+    android:background="#757575"/>
+       <Button
+           android:layout_width="55dp"
+           android:layout_height="wrap_content"
+           android:background="#3D5AFE"/>
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="#FF9100"/>
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:background="#9B30FF"/>
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:background="#CCFF90"/>
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:background="#F06292"
+            />
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:background="#4527A0"/>
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:background="#FFEE58"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/brain3"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOW TO PLAY"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="85dp"
+                android:textColor="#FFFFFF"
+                android:background="#F9BD15"
+                android:textSize="25dp"
+                android:id="@+id/How_to_Play"/>
+        <Button
+        android:id="@+id/new_button"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="5dp"
+        android:background="#F9BD15"
+        android:text="PLAY"
+            android:textColor="#FFFFFF"
+        android:textSize="25dp"
+
+        />
+
+</LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
